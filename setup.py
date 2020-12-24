@@ -316,6 +316,7 @@ kubernetes = [
 kylin = ['kylinpy>=2.6']
 ldap = [
     'ldap3>=2.5.1',
+    'python-ldap',
 ]
 mongo = [
     'dnspython>=1.13.0,<2.0.0',
@@ -767,7 +768,6 @@ EXTRAS_PROVIDERS_PACKAGES: Dict[str, Iterable[str]] = {
     'jenkins': ["jenkins"],
     'jira': ["jira"],
     'kubernetes': ["cncf.kubernetes"],  # TODO: remove this in Airflow 3.0
-    'ldap': ["ldap"],
     "microsoft.azure": ["microsoft.azure"],
     "microsoft.mssql": ["microsoft.mssql"],
     "microsoft.winrm": ["microsoft.winrm"],
