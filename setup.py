@@ -766,7 +766,7 @@ EXTRAS_PROVIDERS_PACKAGES: Dict[str, Iterable[str]] = {
     'jdbc': ["jdbc"],
     'jenkins': ["jenkins"],
     'jira': ["jira"],
-    'kerberos': [],
+    'kerberos': ["kerberos"],
     'kubernetes': ["cncf.kubernetes"],  # TODO: remove this in Airflow 3.0
     'ldap': ["ldap"],
     "microsoft.azure": ["microsoft.azure"],
@@ -803,7 +803,7 @@ EXTRAS_PROVIDERS_PACKAGES: Dict[str, Iterable[str]] = {
     'spark': ["apache.spark"],
     'sqlite': ["sqlite"],
     'ssh': ["ssh"],
-    'statsd': [],
+    'statsd': ["statsd"],
     'tableau': [],
     'telegram': ["telegram"],
     'vertica': ["vertica"],
