@@ -91,6 +91,7 @@ ARG DEV_APT_DEPS="\
      ldap-utils \
      libffi-dev \
      libkrb5-dev \
+     libldap2-dev \
      libpq-dev \
      libsasl2-2 \
      libsasl2-dev \
@@ -347,6 +348,7 @@ ARG RUNTIME_APT_DEPS="\
        krb5-user \
        ldap-utils \
        libffi6 \
+       libldap2 \
        libsasl2-2 \
        libsasl2-modules \
        libssl1.1 \
